@@ -1,4 +1,4 @@
-Feature: As a user I expect to be able to navigate to the home page
+Feature: As a user I expect to be able to navigate to the home page.
 
     @dev
     @smoke
