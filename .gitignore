@@ -6,16 +6,6 @@
 # Node artifact files
 node_modules/
 dist/
-tracing-and-debugging
-test-results
-perf-report
-screenshots
-screenshots-images
-screenshots-links
-smoke-results
-allure-results
-reports
-allure-report
 # .env files
 .env
 state.json
@@ -35,7 +25,6 @@ state.json
 target/
 dist/
 build
-e2e/tests/test1.ts
 # JetBrains IDE
 .idea/
 

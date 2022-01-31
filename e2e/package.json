@@ -1,0 +1,23 @@
+{
+    "name": "e2e",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cucumber:dev": "cucumber-js src/features/**/*.feature --tags @dev --require-module ts-node/register --require src/step-definitions/**/**/*.ts",
+        "cucumber:smoke": "cucumber-js src/features/**/*.feature --tags @moke --require-module ts-node/register --require src/step-definitions/**/**/*.ts",
+        "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression --require-module ts-node/register --require src/step-definitions/**/**/*.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@playwright/test": "^1.17.1",
+        "playwright": "^1.17.1"
+    },
+    "devDependencies": {
+        "@cucumber/cucumber": "^8.0.0-rc.1",
+        "@types/node": "^17.0.1",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.4"
+    }
+}

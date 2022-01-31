@@ -6,9 +6,7 @@
 
 -   [Prerequisite](#prerequisite)
 -   [Framework Setup](#frameworkSetup)
-    -   [Auto Module Generator](#moduleGenerator)
     -   [Code Quality Setup (Eslint + Prettier)](#codeQualitySetup)
-    -   [Useful commands](#commands)
 
 ## 🧐 Prerequisite <a name = "prerequisite"></a>
 
@@ -30,5 +28,3 @@ yarn install
 ```
 yarn run lint
 ```
-
-### 🚀 Useful commands <a name = "commands"></a>
