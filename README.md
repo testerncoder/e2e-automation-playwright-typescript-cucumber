@@ -30,7 +30,7 @@ yarn install
 yarn run lint
 ```
 
-### 👨‍💻 Useful Commands (To Run The Test Suits) <a name = "usefulCommonds"></a>
+### 👨‍💻 Useful Commands (To Run The Test Suite) <a name = "usefulCommonds"></a>
 
 - To run the test with tag @dev
 
